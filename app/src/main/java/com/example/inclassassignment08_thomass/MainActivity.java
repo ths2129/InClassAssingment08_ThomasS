@@ -1,13 +1,12 @@
-package com.example.inclassassingment08_thomass;
+package com.example.inclassassignment08_thomass;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import java.util.ArrayList;
+import com.example.inclassassingment08_thomass.R;
+
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,10 +19,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-        public void Start (View view){
-            Intent intent = new Intent(this, MainPage.class);
-            startActivity(intent);
-        }
+
+    public void Start(View view) {
+        Intent intent = new Intent(this, MainPage.class);
+        startActivity(intent);
+    }
 
 
 

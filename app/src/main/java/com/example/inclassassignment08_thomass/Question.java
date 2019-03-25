@@ -1,4 +1,4 @@
-package com.example.inclassassingment08_thomass;
+package com.example.inclassassignment08_thomass;
 
 
 public class Question {
@@ -47,7 +47,7 @@ public class Question {
     }
 
     public void setLink(int link) { //Toast!
-        this.link =  link;
+        this.link = link;
     }
 
     public Question(int location, int question, int photoId, int link, boolean answer) { //getters and setters
